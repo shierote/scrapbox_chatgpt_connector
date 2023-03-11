@@ -11,9 +11,10 @@ import os
 
 # default args for update_from_scrapbox() as sample
 # input json data from https://scrapbox.io/qualia-san/
-JSON_FILE = "from_scrapbox/qualia-san.json"
+# input json data from https://scrapbox.io/taishi-eguchi/
+JSON_FILE = "from_scrapbox/taishi-eguchi.json"
 # output file name
-INDEX_FILE = "qualia-san.pickle"
+INDEX_FILE = "taishi-eguchi.pickle"
 
 BLOCK_SIZE = 500
 

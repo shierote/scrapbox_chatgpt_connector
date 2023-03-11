@@ -6,7 +6,7 @@ import tiktoken
 from make_index import VectorStore
 
 
-INDEX_FILE = "qualia-san.pickle"
+INDEX_FILE = "taishi-eguchi.pickle"
 
 dotenv.load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -33,9 +33,8 @@ Read the following text and answer the question. Your reply should be shorter th
 """.strip()
 
 
-input_str = """
-もっとも大事な問いとは何だろう？
-""".strip()
+input_str = input("質問はありますか？ <<<")
+input_str = input_str.strip()
 
 
 MAX_PROMPT_SIZE = 4096
